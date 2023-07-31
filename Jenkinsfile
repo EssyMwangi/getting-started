@@ -22,12 +22,12 @@ pipeline {
 // Script //
 node {
     stage('Build') {
-        echo 'Building....'
+        echo 'Building the app....'
     }
     stage('Test') {
-        echo 'Building....'
+        echo 'Building the app....'
     }
     stage('Deploy') {
-        echo 'Deploying....'
+        echo 'Deploying the app....'
     }
 }
